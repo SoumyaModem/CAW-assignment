@@ -5,6 +5,7 @@ import avacado from "../image/Avocado Hass.jpg"
 import { PiPictureInPictureLight } from 'react-icons/pi'
 import {TiTick} from "react-icons/ti"
 import {RxCross2} from 'react-icons/rx'
+import {AiOutlineSearch} from "react-icons/ai"
 
 // React Hooks 
 const List = () => {
@@ -88,7 +89,10 @@ const List = () => {
 
   return (
     <div className='container'>
-      <input type="text" className="input" />
+      <div class="input-group">
+          <input type="text" className="input" aria-label="Dollar amount (with dot and two decimal places)"/>
+          <span class="input-group-text"><AiOutlineSearch/></span>
+      </div>
       <table className="table">
         <thead>
           <tr>

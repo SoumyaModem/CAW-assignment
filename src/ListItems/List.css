@@ -2,12 +2,16 @@
     color:pink;
 }
 .input{
-    width:300px;
+    width:400px;
     border-radius: 5px;
+    border-width:1px;
 }
 .status{
     background-color:a9a9a9;
 }
 .table{
     box-shadow: 10px;
+}
+.container{
+    shadow:2px;
 }
