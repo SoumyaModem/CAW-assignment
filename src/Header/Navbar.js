@@ -9,7 +9,7 @@ const Navbar = () => {
       <div className='container'>
         <div>
           <ul className="nav">
-            <li className='item'><img src="https://placehold.co/100x40" /></li>
+            <li className='item'><img src="https://reeco.io/assets/logo.44b75468.svg" className='logo-image'/></li>
             <li className='item'>Store</li>
             <li className='item'>Orders</li>
             <li className='item'>Analytics</li>

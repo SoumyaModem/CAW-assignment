@@ -1,6 +1,9 @@
 .top-section{
     margin-right:40px;
     margin-left:40px;
+    background-color: #ffffff;
+    margin-bottom:10px;
+    border: 1px solid #ffffff;
 }
 .span{
     font-family: "Roboto";
@@ -26,6 +29,7 @@
     background-color: #ffffff;
     color:darkgreen;
     font-family: "roboto";
+    width:100px;
 }
 .approve{
     border-width:0;
@@ -34,3 +38,31 @@
     background-color:darkgreen;
     font-family: "roboto";
 }
+.white{
+    background-color: whitesmoke;
+    width: auto;
+}
+
+.bootstrap-class{
+    border: 0.5px solid rgb(205, 203, 203);
+    background-color:#ffffff;
+    border-radius: 6px;
+    margin-top: 10px;
+    padding-top: 6px;
+    padding:6px;
+    margin-bottom: 20px;
+}
+.vl {
+    border-left: 2px solid rgb(205, 203, 203);
+    height: 100px;
+    margin-top:20px;
+  }
+  .note{
+    display: flex;
+    flex-direction: row;
+  }
+  .mini{
+    margin-top:20px;
+    text-align: center;
+    margin-right:60px;
+  }

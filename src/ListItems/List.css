@@ -3,15 +3,70 @@
 }
 .input{
     width:400px;
-    border-radius: 5px;
+    border-radius: 20px;
     border-width:1px;
+    border-color:rgb(205,203,203);
+    height: 40px;
 }
 .status{
     background-color:a9a9a9;
 }
 .table{
     box-shadow: 10px;
+    width:auto;
 }
 .container{
     shadow:2px;
+}
+.approve{
+    color:darkgreen;
+}
+.missed{
+    color:red;
+}
+.image{
+    height:20px;
+    width:20px;
+}
+.success{
+    width:100px;
+    background-color:green;
+    color:#ffffff;
+    font-family: "roboto";
+    font-size:18px;
+    border-radius:10px;
+    border-width:0;
+}
+.reject{
+    width:100px;
+    background-color:red;
+    color:#ffffff;
+    font-family: "roboto";
+    font-size:18px;
+    border-radius:10px;
+    border-width:0;
+}
+.table2{
+    width:auto;
+    background-color: #ffffff;
+    border-radius:5px;
+    border-width:2px;
+}
+.input-group{
+    width:400px;
+    background-color: #ffffff;
+    margin-top:10px;
+    padding: 20px;
+    height:20px;
+}
+.input-group-text{
+    background-color: #ffffff;
+}
+.input-print{
+    display:flex;
+    flex-direction: row;
+    background-color: #ffffff;
+}
+.span{
+    background-color: #ffffff;
 }
