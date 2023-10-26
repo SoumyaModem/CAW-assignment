@@ -1,0 +1,29 @@
+.navbar{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(4, 88, 2);
+    height:70px;
+}
+
+.nav{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    list-style-type:none;
+}
+.item{
+    padding-right:50px;
+    color:#ffffff;
+    font-family: "Roboto";
+    font-size: 20px;
+}
+.cart{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style-type:none;  
+    color:#ffffff;
+    font-family: "Roboto";
+    font-size: 20px;       
+}

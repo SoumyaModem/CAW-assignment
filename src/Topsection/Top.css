@@ -1,0 +1,36 @@
+.top-section{
+    margin-right:40px;
+    margin-left:40px;
+}
+.span{
+    font-family: "Roboto";
+    color:black;
+    font-size:18px;
+    text-decoration: underline;
+}
+.title{
+    color:gray;
+    font-family: "roboto";
+    font-size:18px;
+}
+.description{
+    color:black;
+    font-family:"roboto";
+    font-size:18px;
+    font-weight: bold;
+}
+.back{
+    border-width:2px;
+    border-color: darkgreen;
+    border-radius: 20px;
+    background-color: #ffffff;
+    color:darkgreen;
+    font-family: "roboto";
+}
+.approve{
+    border-width:0;
+    border-radius: 20px;
+    color: #ffffff;
+    background-color:darkgreen;
+    font-family: "roboto";
+}
